@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View, Text } from 'react-native';
 
-function Greeting(props) {
+function Greeting({ name = '이도현' }) {
   return (
     <View>
-      <Text>안녕하세요 {props.name}</Text>
+      <Text>안녕하세요11 {name}</Text>
     </View>
   );
 }
