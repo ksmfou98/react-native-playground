@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 function Greeting({ name = '이도현' }) {
   return (
     <View>
-      <Text>안녕하세요11 {name}</Text>
+      <Text>안녕하세요111 {name}</Text>
     </View>
   );
 }
